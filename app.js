@@ -31,10 +31,17 @@ p2Button.addEventListener("click", () => {
   }
 });
 
-resetButton.addEventListener("click", () => {
+playToSelect.addEventListener("change", () => {
+  winningScore = parseInt(playToSelect.value);
+  console.log(winningScore);
+});
+
+resetButton.addEventListener("click", reset);
+
+function reset() {
   gameOver = false;
   p1Score = 0;
   p2Score = 0;
   p1Display.textContent = p1Score;
   p2Display.textContent = p2Score;
-});
+}
