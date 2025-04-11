@@ -22,3 +22,17 @@ The Ping Pong Score Keeper allows you to:
 4. **Dynamic Colors**: The winning player’s score turns green, and the losing player’s score turns red.
 5. **Shorthand Arrow Functions**: Used to simplify the code and make it more concise.
 
+### How It Was Built
+Here's a simple explanation of how the app works:
+1. **HTML Structure**:
+- The webpage includes buttons for each player, a dropdown to select the winning score, and a reset button.
+- Each player’s score is displayed next to their button.
+2. **Bulma Framework**:
+- Bulma was used to style the buttons, dropdown, and layout. It provides a polished look without requiring custom CSS.
+3. **JavaScript (DOM Manipulation)**:
+- `querySelector`: Used to select elements like buttons, score displays, and the dropdown.
+- `addEventListner`: Listens for user actions like button clicks or dropdown changes.
+- `classList`: Adds or removes CSS classes to dynamically change the color of the scores (e.g., green for the winner, red for the loser).
+- **Shorthand Arrow Functions**: Simplifies event listener callbacks for cleaner and more concise code.
+- **Game Logic**: JavaScript keeps track of the scores, checks if a player has won, and disables buttons when the game is over.
+
