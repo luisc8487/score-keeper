@@ -3,6 +3,8 @@
 ### Introduction
 Welcome to the Ping Pong Score Keeper! This is a simple web application designed to help you keep track of scores for two players during a ping pong game. It’s user-friendly, visually appealing, and built with basic web technologies.
 
+![ping-pong](https://github.com/user-attachments/assets/bbc29ae7-dc1d-4f7e-843d-e493ff5075b3)
+
 ### How It Works
 The Ping Pong Score Keeper allows you to:
 
