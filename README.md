@@ -36,3 +36,9 @@ Here's a simple explanation of how the app works:
 - **Shorthand Arrow Functions**: Simplifies event listener callbacks for cleaner and more concise code.
 - **Game Logic**: JavaScript keeps track of the scores, checks if a player has won, and disables buttons when the game is over.
 
+### How to Use
+1. Open the webpage in your browser.
+2. Click the buttons to increase each player’s score.
+3. Use the dropdown to set the winning score.
+4. When a player reaches the winning score, the game ends, and the scores change color.
+5. Click the reset button to start a new game.
